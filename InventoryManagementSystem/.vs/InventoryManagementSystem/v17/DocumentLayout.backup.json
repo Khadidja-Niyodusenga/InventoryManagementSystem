@@ -9,6 +9,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{F963414C-AC7A-4DB9-9EBA-29AFA2248B71}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\user\\documents\\bedeveloper\\inventorymanagementsystem\\inventorymanagementsystem\\inventorymanagementsystem\\inventorymanagementsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F963414C-AC7A-4DB9-9EBA-29AFA2248B71}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F963414C-AC7A-4DB9-9EBA-29AFA2248B71}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\user\\documents\\bedeveloper\\inventorymanagementsystem\\inventorymanagementsystem\\inventorymanagementsystem\\inventorymanagementsystem\\inventorymanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F963414C-AC7A-4DB9-9EBA-29AFA2248B71}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\inventorymanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F963414C-AC7A-4DB9-9EBA-29AFA2248B71}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\user\\documents\\bedeveloper\\inventorymanagementsystem\\inventorymanagementsystem\\inventorymanagementsystem\\inventorymanagementsystem\\views\\assetview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F963414C-AC7A-4DB9-9EBA-29AFA2248B71}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\assetview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F963414C-AC7A-4DB9-9EBA-29AFA2248B71}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\user\\documents\\bedeveloper\\inventorymanagementsystem\\inventorymanagementsystem\\inventorymanagementsystem\\inventorymanagementsystem\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F963414C-AC7A-4DB9-9EBA-29AFA2248B71}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F963414C-AC7A-4DB9-9EBA-29AFA2248B71}|InventoryManagementSystem\\InventoryManagementSystem.csproj|c:\\users\\user\\documents\\bedeveloper\\inventorymanagementsystem\\inventorymanagementsystem\\inventorymanagementsystem\\inventorymanagementsystem\\views\\assetview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F963414C-AC7A-4DB9-9EBA-29AFA2248B71}|InventoryManagementSystem\\InventoryManagementSystem.csproj|solutionrelative:inventorymanagementsystem\\views\\assetview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,20 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "InventoryManagementSystem\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\MainWindow.xaml",
-              "RelativeToolTip": "InventoryManagementSystem\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-10T12:46:03.917Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,9 +44,71 @@
               "RelativeDocumentMoniker": "InventoryManagementSystem\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\MainWindow.xaml.cs",
               "RelativeToolTip": "InventoryManagementSystem\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T12:45:59.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\MainWindow.xaml*",
+              "RelativeToolTip": "InventoryManagementSystem\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-10T12:46:03.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryManagementSystem",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem.csproj",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\InventoryManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem.csproj*",
+              "RelativeToolTip": "InventoryManagementSystem\\InventoryManagementSystem.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-10T13:35:05.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssetView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\AssetView.xaml.cs",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\AssetView.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\AssetView.xaml.cs",
+              "RelativeToolTip": "InventoryManagementSystem\\Views\\AssetView.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T14:13:14.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\DashboardView.xaml",
+              "ToolTip": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\DashboardView.xaml",
+              "RelativeToolTip": "InventoryManagementSystem\\Views\\DashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-10T14:33:41.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssetView.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\AssetView.xaml",
+              "RelativeDocumentMoniker": "InventoryManagementSystem\\Views\\AssetView.xaml",
+              "ToolTip": "C:\\Users\\user\\Documents\\BeDeveloper\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\InventoryManagementSystem\\Views\\AssetView.xaml",
+              "RelativeToolTip": "InventoryManagementSystem\\Views\\AssetView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-10T14:13:08.717Z",
               "EditorCaption": ""
             }
           ]

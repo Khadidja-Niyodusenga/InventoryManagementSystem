@@ -1,0 +1,46 @@
+﻿<Page x:Class="InventoryManagementSystem.Views.DashboardView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Margin="20">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Dashboard"
+                   FontSize="28"
+                   FontWeight="Bold"
+                   Margin="0,0,0,20"/>
+
+        <UniformGrid Grid.Row="1" Columns="2">
+
+            <Border Background="#4CAF50" Margin="10" Padding="20">
+                <TextBlock Text="Total Assets: 120"
+                           FontSize="20"
+                           Foreground="White"/>
+            </Border>
+
+            <Border Background="#2196F3" Margin="10" Padding="20">
+                <TextBlock Text="Assigned: 80"
+                           FontSize="20"
+                           Foreground="White"/>
+            </Border>
+
+            <Border Background="#FF9800" Margin="10" Padding="20">
+                <TextBlock Text="Available: 40"
+                           FontSize="20"
+                           Foreground="White"/>
+            </Border>
+
+            <Border Background="#F44336" Margin="10" Padding="20">
+                <TextBlock Text="Damaged: 5"
+                           FontSize="20"
+                           Foreground="White"/>
+            </Border>
+
+        </UniformGrid>
+
+    </Grid>
+</Page>
