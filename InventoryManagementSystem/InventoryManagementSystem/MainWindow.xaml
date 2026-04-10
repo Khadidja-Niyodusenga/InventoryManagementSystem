@@ -29,8 +29,8 @@
                 VerticalAlignment="Center"
                 Margin="20,0">
                 <Image Source="Assets/Airtel_logo.png"
-               Height="62"
-               Width="71"
+               Height="57"
+               Width="65"
                Stretch="Uniform"/>
 
 
