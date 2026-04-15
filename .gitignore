@@ -8,5 +8,13 @@ obj/
 *.suo
 
 # Build results
+<<<<<<< HEAD
 *.exe
 *.dll
+=======
+*.dll
+*.exe
+
+# SQLite database (optional)
+*.db
+>>>>>>> origin/master
