@@ -32,6 +32,7 @@ namespace inventory_system.data
                 ConditionStatus TEXT CHECK(ConditionStatus IN ('Good','Needs Maintenance','Damaged')),
                 Status TEXT CHECK(Status IN ('Available','Assigned','Under Repair')) DEFAULT 'Available',
                 Department TEXT,
+                IsActive INTEGER DEFAULT 1,
                 CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP
             );";
 

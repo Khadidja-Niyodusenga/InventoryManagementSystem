@@ -7,7 +7,7 @@ namespace inventory_system.data
 {
    public class Database
     {
-        private static string connectionString = "Data Source=invetory.db;Version=3";
+        private static string connectionString = "Data Source=inventory.db;Version=3";
             
         public static SQLiteConnection GetConnection()
         {

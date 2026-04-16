@@ -66,11 +66,12 @@
 
             <!-- ASSETS -->
             <Button Background="Transparent"
-            BorderThickness="0"
-            Foreground="black"
-            Height="40"
-            HorizontalContentAlignment="Left"
-            Padding="15,0">
+        BorderThickness="0"
+        Foreground="black"
+        Height="40"
+        HorizontalContentAlignment="Left"
+        Padding="15,0"
+        Click="Assets_Click">
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="💻" FontSize="16" Margin="0,0,10,0"/>

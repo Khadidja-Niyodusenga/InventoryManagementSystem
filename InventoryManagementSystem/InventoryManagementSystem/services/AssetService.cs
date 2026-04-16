@@ -90,8 +90,9 @@ namespace inventory_system.services
                 SerialNumber = @serial,
                 Specifications = @specs,
                 ConditionStatus = @condition,
+                Status = @status,
                 Department = @dept
-                WHERE AssetID = @id";
+                 WHERE AssetID = @id";
 
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
@@ -100,6 +101,7 @@ namespace inventory_system.services
                     cmd.Parameters.AddWithValue("@serial", asset.SerialNumber);
                     cmd.Parameters.AddWithValue("@specs", asset.Specifications);
                     cmd.Parameters.AddWithValue("@condition", asset.ConditionStatus);
+                    cmd.Parameters.AddWithValue("@status", asset.Status);
                     cmd.Parameters.AddWithValue("@dept", asset.Department);
                     cmd.Parameters.AddWithValue("@id", asset.AssetID);
 

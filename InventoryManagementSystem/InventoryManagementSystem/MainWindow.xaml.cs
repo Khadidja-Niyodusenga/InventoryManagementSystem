@@ -1,14 +1,7 @@
 ﻿using System.Text;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-
+using InventoryManagementSystem.Views;
+using inventory_system.data;
 namespace InventoryManagementSystem
 {
     /// <summary>
@@ -19,7 +12,12 @@ namespace InventoryManagementSystem
         public MainWindow()
         {
             InitializeComponent();
+            DatabaseInitializer.Initializer();
             MainFrame.Navigate(new Views.DashboardView());
+        }
+        private void Assets_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new AssetsView());
         }
     }
 }
