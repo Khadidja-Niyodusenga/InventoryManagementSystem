@@ -9,6 +9,15 @@ namespace InventoryManagementSystem
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+
+            // 🔥 Run database migrations before anything else
+            DatabaseMigration.EnsureUsersColumns();
+            DatabaseMigration.EnsureAssetsColumns();
+            DatabaseMigration.EnsureAssignmentsColumns();
+        }
     }
 
 }

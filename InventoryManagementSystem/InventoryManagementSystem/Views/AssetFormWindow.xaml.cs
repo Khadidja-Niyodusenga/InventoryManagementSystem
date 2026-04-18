@@ -1,4 +1,4 @@
-﻿using inventory_system.models;
+﻿using InventoryManagementSystem.models;
 using System.Windows;
 
 namespace InventoryManagementSystem.Views

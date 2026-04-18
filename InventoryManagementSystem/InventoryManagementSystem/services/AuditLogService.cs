@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
-using inventory_system.data;
-using inventory_system.models;
+using InventoryManagementSystem.data;
+using InventoryManagementSystem.models;
 
-namespace inventory_system.services
+namespace InventoryManagementSystem.services
 {
     public class AuditLogService
     {

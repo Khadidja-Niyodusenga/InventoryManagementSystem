@@ -1,5 +1,5 @@
-﻿using inventory_system.services;
-using inventory_system.models;
+﻿using InventoryManagementSystem.services;
+using InventoryManagementSystem.models;
 using System.Windows.Controls;
 using System.Windows;
 

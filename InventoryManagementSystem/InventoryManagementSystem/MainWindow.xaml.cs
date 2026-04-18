@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using System.Windows;
 using InventoryManagementSystem.Views;
-using inventory_system.data;
+using InventoryManagementSystem.data;
 namespace InventoryManagementSystem
 {
     /// <summary>
@@ -18,6 +18,16 @@ namespace InventoryManagementSystem
         private void Assets_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new AssetsView());
+        }
+
+        private void User_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new UserView());
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

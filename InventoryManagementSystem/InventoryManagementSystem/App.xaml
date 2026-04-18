@@ -2,8 +2,9 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:InventoryManagementSystem"
+             xmlns:conv="clr-namespace:InventoryManagementSystem.Converters"      
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <conv:ActiveStatusConverter x:Key="ActiveStatusConverter" />
     </Application.Resources>
 </Application>

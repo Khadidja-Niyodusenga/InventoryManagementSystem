@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data.SQLite;
 using System.Text;
 
-namespace inventory_system.data
+namespace InventoryManagementSystem.data
 {
     public class DatabaseInitializer
     {

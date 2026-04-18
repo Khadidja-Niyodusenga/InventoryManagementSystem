@@ -55,7 +55,8 @@
             Foreground="black"
             Height="40"
             HorizontalContentAlignment="Left"
-            Padding="15,0">
+            Padding="15,0"
+            Cursor="Hand">
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="📊" FontSize="16" Margin="0,0,10,0"/>
@@ -71,11 +72,29 @@
         Height="40"
         HorizontalContentAlignment="Left"
         Padding="15,0"
-        Click="Assets_Click">
+        Click="Assets_Click"
+        Cursor="Hand">
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="💻" FontSize="16" Margin="0,0,10,0"/>
                     <TextBlock Text="Assets" FontSize="14"/>
+                </StackPanel>
+
+            </Button> 
+
+            <!-- Users -->
+            <Button Background="Transparent"
+BorderThickness="0"
+Foreground="black"
+Height="40"
+HorizontalContentAlignment="Left"
+Padding="15,0"
+Click="User_Click"
+Cursor="Hand">
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="👥" FontSize="16" Margin="0,0,10,0"/>
+                    <TextBlock Text="Users" FontSize="14"/>
                 </StackPanel>
 
             </Button>
@@ -86,7 +105,8 @@
             Foreground="black"
             Height="40"
             HorizontalContentAlignment="Left"
-            Padding="15,0">
+            Padding="15,0"
+            Cursor="Hand">
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="📦" FontSize="16" Margin="0,0,10,0"/>
@@ -101,7 +121,8 @@
             Foreground="black"
             Height="40"
             HorizontalContentAlignment="Left"
-            Padding="15,0">
+            Padding="15,0"
+            Cursor="Hand">
 
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="📈" FontSize="16" Margin="0,0,10,0"/>

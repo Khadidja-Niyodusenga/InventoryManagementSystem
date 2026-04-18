@@ -1,4 +1,4 @@
-﻿namespace inventory_system.models
+﻿namespace InventoryManagementSystem.models
 {
     public class AuditLog
     {

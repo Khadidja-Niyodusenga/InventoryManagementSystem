@@ -1,10 +1,10 @@
-﻿using inventory_system.data;
-using inventory_system.models;
+﻿using InventoryManagementSystem.data;
+using InventoryManagementSystem.models;
 using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
 
-namespace inventory_system.services
+namespace InventoryManagementSystem.services
 {
     public class AssetService
     {

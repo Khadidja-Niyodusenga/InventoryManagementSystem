@@ -1,5 +1,5 @@
 ﻿using System.Data.SQLite;
-using inventory_system.data;
+using InventoryManagementSystem.data;
 
 public static class DatabaseMigration
 {
