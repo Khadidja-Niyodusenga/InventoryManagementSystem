@@ -1,43 +1,111 @@
 ﻿<Page x:Class="InventoryManagementSystem.Views.DashboardView"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="#F4F6F9">
 
-    <Grid Margin="20">
+    <Grid Margin="25">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <!-- TITLE -->
         <TextBlock Text="Dashboard"
-                   FontSize="28"
+                   FontSize="30"
                    FontWeight="Bold"
-                   Margin="0,0,0,20"/>
+                   Foreground="#333"
+                   Margin="0,0,0,25"/>
 
-        <UniformGrid Grid.Row="1" Columns="2">
+        <!-- CARDS -->
+        <UniformGrid Grid.Row="1" Columns="2" Rows="3">
 
-            <Border Background="#4CAF50" Margin="10" Padding="20">
-                <TextBlock Text="Total Assets: 120"
-                           FontSize="20"
-                           Foreground="White"/>
+            <!-- Total Assets -->
+            <Border Background="#4CAF50"
+                    CornerRadius="15"
+                    Margin="12"
+                    Padding="20">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.3"/>
+                </Border.Effect>
+
+                <StackPanel>
+                    <TextBlock Text="Total Assets"
+                               FontSize="16"
+                               Foreground="White"
+                               Opacity="0.9"/>
+
+                    <TextBlock Text="{Binding TotalAssets}"
+                               FontSize="28"
+                               FontWeight="Bold"
+                               Foreground="White"/>
+                </StackPanel>
             </Border>
 
-            <Border Background="#2196F3" Margin="10" Padding="20">
-                <TextBlock Text="Assigned: 80"
-                           FontSize="20"
-                           Foreground="White"/>
+            <!-- Assigned -->
+            <Border Background="#2196F3"
+                    CornerRadius="15"
+                    Margin="12"
+                    Padding="20">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.3"/>
+                </Border.Effect>
+
+                <StackPanel>
+                    <TextBlock Text="Assigned"
+                               FontSize="16"
+                               Foreground="White"
+                               Opacity="0.9"/>
+
+                    <TextBlock Text="{Binding AssignedAssets}"
+                               FontSize="28"
+                               FontWeight="Bold"
+                               Foreground="White"/>
+                </StackPanel>
             </Border>
 
-            <Border Background="#FF9800" Margin="10" Padding="20">
-                <TextBlock Text="Available: 40"
-                           FontSize="20"
-                           Foreground="White"/>
+            <!-- Available -->
+            <Border Background="#FF9800"
+                    CornerRadius="15"
+                    Margin="12"
+                    Padding="20">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.3"/>
+                </Border.Effect>
+
+                <StackPanel>
+                    <TextBlock Text="Available Assets"
+                               FontSize="16"
+                               Foreground="White"
+                               Opacity="0.9"/>
+
+                    <TextBlock Text="{Binding AvailableAssets}"
+                               FontSize="28"
+                               FontWeight="Bold"
+                               Foreground="White"/>
+                </StackPanel>
             </Border>
 
-            <Border Background="#F44336" Margin="10" Padding="20">
-                <TextBlock Text="Damaged: 5"
-                           FontSize="20"
-                           Foreground="White"/>
+            <!-- Damaged -->
+            <Border Background="#F44336"
+                    CornerRadius="15"
+                    Margin="12"
+                    Padding="20">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="2" Opacity="0.3"/>
+                </Border.Effect>
+
+                <StackPanel>
+                    <TextBlock Text="Damaged"
+                               FontSize="16"
+                               Foreground="White"
+                               Opacity="0.9"/>
+
+                    <TextBlock Text="{Binding DamagedAssets}"
+                               FontSize="28"
+                               FontWeight="Bold"
+                               Foreground="White"/>
+                </StackPanel>
             </Border>
 
         </UniformGrid>

@@ -54,6 +54,7 @@
             BorderThickness="0"
             Foreground="black"
             Height="40"
+            Click="Dashboard_Click"
             HorizontalContentAlignment="Left"
             Padding="15,0"
             Cursor="Hand">

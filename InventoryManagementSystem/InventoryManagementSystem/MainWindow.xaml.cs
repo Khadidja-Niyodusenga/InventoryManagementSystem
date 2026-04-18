@@ -15,6 +15,11 @@ namespace InventoryManagementSystem
             DatabaseInitializer.Initializer();
             MainFrame.Navigate(new Views.DashboardView());
         }
+
+        private void Dashboard_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new DashboardView());
+        }
         private void Assets_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new AssetsView());

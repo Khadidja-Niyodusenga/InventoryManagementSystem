@@ -32,7 +32,6 @@
     <Folder Include="Helpers\" />
     <Folder Include="Properties\" />
     <Folder Include="Reports\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 
 </Project>
